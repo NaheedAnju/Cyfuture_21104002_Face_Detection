@@ -26,7 +26,7 @@ def download_and_unzip(url, save_path):
 
 URL = r"https://www.dropbox.com/s/efitgt363ada95a/opencv_bootcamp_assets_12.zip?dl=1"
 
-asset_zip_path = os.path.join(os.getcwd(), f"opencv_bootcamp_assets_12.zip")
+asset_zip_path = os.path.join(os.getcwd(), f"opencv_assets_12.zip")
 
 # Download if assest ZIP does not exists.
 if not os.path.exists(asset_zip_path):
